@@ -188,8 +188,13 @@ li{
     cursor: pointer;
     text-decoration: none;
     color: gray;
-    font-size: 1px;
+    font-size: 12px;
     padding-left: 10px;
+    transition: 0.30s ease-in;
+}
+
+.footerLinks li a:hover {
+    text-decoration: underline;
 }
 
 .footerLinks p {
@@ -201,6 +206,9 @@ li{
     .gSection{
         display: flex;
         flex-direction: column;
+    }
+    .gSection .gInfo{
+        text-align: center;
     }
     .footer .footerLinks{
         display: flex;
