@@ -161,6 +161,8 @@ li{
 .gInfo p{
     font-size: 15px;
     line-height: 30px;
+    width: 400px;
+    line-height: 35px;
     color: gray;
 }
 
@@ -210,7 +212,7 @@ li{
     }
     .gSection .gInfo{
         text-align: center;
-        margin-right: 0px;
+        margin-left: 0px;
     }
     .footer .footerLinks{
         display: flex;
