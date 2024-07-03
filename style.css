@@ -214,6 +214,9 @@ li{
         text-align: center;
         margin-left: 0px;
     }
+    .gInfo p{
+        width: 500px;
+    }
     .footer .footerLinks{
         display: flex;
         flex-direction: column;
