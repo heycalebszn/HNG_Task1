@@ -41,6 +41,7 @@ li{
 
 .navMenu .leftNav .navImg {
     margin-right: 10px;
+    clip-path: circle();
 }
 
 .navMenu .block {
@@ -209,6 +210,7 @@ li{
     }
     .gSection .gInfo{
         text-align: center;
+        margin-right: 0px;
     }
     .footer .footerLinks{
         display: flex;
