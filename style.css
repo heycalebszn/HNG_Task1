@@ -205,6 +205,15 @@ li{
     color: white;
 }
 
+.skills{
+    margin-top: 50px;
+}
+
+.skills h1{
+    font-size: 17px;
+    font-weight: 500;
+}
+
 @media(max-width: 680px) {
     .gSection{
         display: flex;
