@@ -210,12 +210,60 @@ li{
 }
 
 .skills{
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .skills h1{
     font-size: 17px;
+    padding-bottom: 10px;
     font-weight: 500;
+}
+
+.skills .skill-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.bxl-html5{
+    color: red;
+}
+
+.bxl-css3{
+    color: blue;
+}
+
+.bxl-javascript{
+    color: yellow;
+}
+
+.bxl-typescript{
+    color: blue;
+}
+
+.bxl-tailwind-css{
+    color: lightblue;
+}
+
+.bxl-react{
+    color: blue;
+}
+
+.bxl-git{
+    color: orange;
+}
+
+.bxl-github{
+    color: purple;
+}
+
+.bxl-figma{
+    color: red;
+}
+
+.bxl-twitter{
+    color: black;
 }
 
 @media(max-width: 680px) {
