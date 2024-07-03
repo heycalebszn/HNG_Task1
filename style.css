@@ -215,7 +215,7 @@ li{
 
 .skills h1{
     font-size: 17px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     font-weight: 500;
 }
 
@@ -276,7 +276,7 @@ li{
         margin-left: 0px;
     }
     .gInfo p{
-        width: 300px;
+        width: 350px;
     }
     .footer .footerLinks{
         display: flex;
