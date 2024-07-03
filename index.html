@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,6 +11,57 @@
     <title>My Portfolio</title>
 </head>
 <body>
-    <i class="fa fa-github" aria-hidden="true"></i>
+    <main>
+        <nav class="navMenu">
+            <div class="leftNav">
+                <img width="30px" class="navImg" src="./images/profile.svg" alt="navImg" data-testid="slackProfilePicture">
+                <div class="block">
+                <span>Slack id:</span>
+                <p data-testid="slackDisplayName">Raptomi</p>
+            </div>
+            </div>
+
+            <div class="rightNav">
+            <i class="fa fa-github"></i>
+            <p>github</p>
+        </div>
+        </nav>
+
+        <section class="heroSection">
+            <div class="info">
+            <h1>Hey🖐, I'm Caleb</h1>
+            <p>A seasoned Frontend developer specialized in crafting scalable websites and applications, <br> i am committed to delivering innovative solution and pushing the boundaries of what is possible <br> in the realm of web and application development.</p>
+
+            <a class="heroBtn" href="">Let's build!</a>
+        </div>
+
+        <div class="socials">
+            socials
+        </div>
+
+        <section class="gSection">
+            <img width="200px" src="./images/profile.svg" alt="">
+            <div class="gInfo">
+                <h1 class="title">Goals</h1>
+                <p>Aspiring to build softwares that will <br> change and impact the world positively <br> in the next two years, as well as improving my workspace <br> and making waves in the tech industry around the globe. <br> And yeah that's all i can think of for now.</p>
+
+                <span data-testid="currentTimeUTC" id="utcTime">Time</span>
+                <span id=""></span>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p data-testid="slackDisplayName">Raptomi</p>
+            
+            <ul class="footerLinks">
+                <p>Sponsors:</p>
+                <li><a data-testid="hngLink" href="https:hng.tech/learn"></a>HNG Tech</li>
+                <li><a data-testid="keywordLink" href=""></a>Keyword Dog</li>
+            </ul>
+        </footer>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
 </body>
 </html>

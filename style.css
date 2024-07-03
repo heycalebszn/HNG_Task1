@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+.navMenu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    padding: 0px 20px;
+}
+
+.navMenu .leftNav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navMenu .leftNav .navImg {
+    margin-right: 10px;
+}
+
+.navMenu .block {
+    display: block;
+    line-height: 15px;
+}
+
+.navMenu .leftNav span {
+    font-size: 10px;
+    color: gray;
+}
+
+.navMenu .leftNav p{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.navMenu .rightNav {
+    display: flex;
+}
+
+.heroSection{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+    padding-left: 40px;
+    padding-right: 40px;
+    overflow: hidden;
+}
+
+.heroSection .info{
+    text-align: left;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.heroSection .info h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.heroSection .info p {
+    font-size: 15px;
+    padding-bottom: 20px;
+    color: gray;
+    line-height: 30px;
+}
+
+.info .heroBtn{
+    display: flex;
+    margin-top: 70px;
+    text-decoration: none;
+    background-color: rgb(201, 201, 202);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.15s ease-in;
+}
+
+.info .heroBtn:hover{
+    border: 1px solid rgb(201, 201, 202);
+    background-color: transparent;
+}
+
+.socials {
+    display: flex;
+    margin-top: 50px;
+}
+
+.gSection{
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.gInfo .title{
+    font-size: 17px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.gSection .gInfo{
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.gSection span{
+    color: gray;
+    font-size: 12px;
+    padding-top: 10px;
+    font-weight: 700;
+}
+
+.gInfo p{
+    font-size: 15px;
+    line-height: 30px;
+    color: gray;
+}
+
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    color: gray;
+    margin-top: 100px;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.footer .footerLinks{
+    display: flex;
+}
+
+.footerLinks li{
+    list-style: none;
+}
+
+.footerLinks li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: gray;
+    padding-left: 10px;
+}
+
+.footerLinks p {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
