@@ -163,3 +163,10 @@
     text-decoration: none;
     color: white;
 }
+
+@media(max-width: 680px) {
+    .gSection{
+        display: flex;
+        flex-direction: column;
+    }
+}
