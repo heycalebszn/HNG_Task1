@@ -206,4 +206,8 @@ li{
         display: flex;
         flex-direction: column;
     }
+    .footer{
+        height: fit-content;
+        padding: 10px 0px;
+    }
 }
