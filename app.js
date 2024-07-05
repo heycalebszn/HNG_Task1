@@ -19,4 +19,3 @@ function updateCurrentDay() {
 }
 
 updateCurrentDay();
-setInterval(updateUTCTime, 1000)
